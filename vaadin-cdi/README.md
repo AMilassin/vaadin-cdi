@@ -3,6 +3,13 @@ vaadin-cdi
 
 Vaadin-CDI is the official CDI integration for Vaadin framework version 7.
 
+Changes in 1.0.3light
+-----------------------
+ - Removed DeltaSpike and included 3 required classes
+
+This is a special release that only includes the 3 required classes from DeltaSpike to make the CDI addon lighter,
+startup time is much faster now.
+
 Changes in 1.0.3
 -----------------------
 
