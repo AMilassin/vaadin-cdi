@@ -241,6 +241,7 @@
         </dependency>
         
         <!-- DeltaSpike -->
+	<!--
         <dependency>
             <groupId>org.apache.deltaspike.core</groupId>
             <artifactId>deltaspike-core-api</artifactId>
@@ -254,6 +255,7 @@
             <version>${deltaspike.version}</version>
             <scope>runtime</scope>
         </dependency>
+	-->
 
         <!-- Test dependencies -->
         <!-- Arquillian -->
@@ -358,6 +360,7 @@
                     <includes>
                         <include>META-INF/maven/${project.groupId}/${project.artifactId}/**</include>
                         <include>com/**</include>
+                        <include>org/**</include>
                         <include>META-INF/services/**</include>
                         <include>META-INF/beans.xml</include>
                     </includes>
@@ -407,3 +410,4 @@
     </build>
 
 </project>
+
